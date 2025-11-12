@@ -42,6 +42,7 @@ fetch(url, {
     // SUCESSO
     alert('Consulta agendada com sucesso!');
     form.reset(); 
+    carregarConsultas(); // Atualiza a tabela automaticamente
     return; // Encerra a execu��o
   } 
   
